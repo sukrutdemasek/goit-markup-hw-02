@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
+    color:#434455;
 }
 a{
     text-decoration: none;
@@ -24,7 +25,7 @@ a{
     width: 115px;
     height: 24px;
 }
-.header-logo .web-header {
+head .web-header {
     color: #2e2f42;
 }
 button{
@@ -33,7 +34,7 @@ button{
 ul{
     list-style-type: none;
 }
-address{
+.address-section{
     font-style: normal;
 }
 .header-buttons{
@@ -106,7 +107,7 @@ address{
 .order-button:focus{
     background: #404bbf;
 }
-.qualities-element .headline3{
+.qualities-element .headline-three{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -137,7 +138,7 @@ letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
 }
-.team-list .headline3{
+.team-list .headline-three{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -154,7 +155,7 @@ text-align: center;
 color: #434455;
 }
 
-.portfolio-section .headline2{
+.portfolio-section .headline-two{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11111;
@@ -163,7 +164,7 @@ color: #434455;
     color: #2e2f42;
 }
 
-.portfolio-element .headline3{
+.portfolio-element .headline-three{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -189,12 +190,17 @@ color: #f4f4fd;
 }
 footer .header-logo{
     font-weight: 700;
-font-size: 18px;
-line-height: 1.16667;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    line-height:1.17;
 }
+footer .web-header{
+    color: #f4f4fd;
+}
+
 
 
 

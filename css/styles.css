@@ -20,7 +20,7 @@ a{
     
     
 }
-head .web-header {
+.header-logo .web-header {
     color: #2e2f42;
 }
 button{
@@ -32,12 +32,7 @@ ul{
 .address-section{
     font-style: normal;
 }
-.header-buttons{
-    
-    
-    
-    gap: 40px;
-}
+
 .header-button{
     font-weight: 500;
     font-size: 16px;
@@ -68,11 +63,11 @@ ul{
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    
+    text-align: center;
     color: #fff;
 }
 .order-button{
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    
     background: #4d5ae5;
     
     font-weight: 500;
@@ -109,9 +104,9 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .team-section{
-    background-color: #f4f4f4;
+    background-color: #f4f4fD;
 }
-.team-list{
+.team-section .team-list{
     background-color: #FFFFFF;
 }
 .team-section .headline-two{

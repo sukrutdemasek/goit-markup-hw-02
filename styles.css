@@ -1,5 +1,5 @@
 body {
-    font-family: Roboto, Raleway, sans-serif;
+    font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
 }
 a{
@@ -14,7 +14,7 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color:  #4d5ae5;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@ a{
     height: 24px;
 }
 .header-logo .web-header {
-    color: #4D5AE5;
+    color: #2e2f42;
 }
 button{
     cursor:pointer;
@@ -33,7 +33,9 @@ button{
 ul{
     list-style-type: none;
 }
-
+address{
+    font-style: normal;
+}
 .header-buttons{
     width: 261px;
     height: 24px;
@@ -69,10 +71,10 @@ ul{
     width: 1440px;
     height: 600px;
 }
-.headline1 {
+.headline-one {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -98,6 +100,7 @@ ul{
     
     width: 169px;
     height: 56px;
+    font-family: "Roboto", sans-serif;
 }
 .order-button:hover,
 .order-button:focus{
@@ -110,8 +113,10 @@ ul{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.qualities-section .headline2{
+.qualities-section .headline-two{
     display: none;
+    line-height: 1.11;
+    text-transform: capitalize;
     
 }
 .qualities-element .text{
@@ -124,7 +129,7 @@ color: #434455;
 .team-section{
     background: #f4f4fd;
 }
-.team-section .headline2{
+.team-section .headline-two{
     font-weight: 700;
 font-size: 36px;
 line-height: 1.11111;

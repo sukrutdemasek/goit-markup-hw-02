@@ -160,17 +160,17 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-footer{
+.footer-section{
     background:#2e2f42;
 }
-footer .text{
+.footer-section .text{
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 }
-footer .header-logo{
+.footer-section .header-logo{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
@@ -179,7 +179,7 @@ footer .header-logo{
     color: #4d5ae5;
     line-height:1.17;
 }
-footer .web-header{
+.footer-section .web-header{
     color: #f4f4fd;
 }
 

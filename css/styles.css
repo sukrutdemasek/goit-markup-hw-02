@@ -17,13 +17,8 @@ a{
     text-transform: uppercase;
     color:  #4d5ae5;
     text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 0px;
-    width: 115px;
-    height: 24px;
+    
+    
 }
 head .web-header {
     color: #2e2f42;
@@ -38,12 +33,9 @@ ul{
     font-style: normal;
 }
 .header-buttons{
-    width: 261px;
-    height: 24px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
+    
+    
+    
     gap: 40px;
 }
 .header-button{
@@ -69,38 +61,27 @@ ul{
 }
 .main-header{
     background: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    
 }
 .headline-one {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
+    
     color: #fff;
 }
 .order-button{
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: #4d5ae5;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
+    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
     
-    width: 169px;
-    height: 56px;
+    
     font-family: "Roboto", sans-serif;
 }
 .order-button:hover,
@@ -115,7 +96,7 @@ ul{
     color: #2e2f42;
 }
 .qualities-section .headline-two{
-    display: none;
+   
     line-height: 1.11;
     text-transform: capitalize;
     
@@ -127,23 +108,24 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.team-section{
+.team-list{
     background: #f4f4fd;
 }
 .team-section .headline-two{
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
+
 color: #2e2f42;
+text-transform: capitalize;
 }
 .team-list .headline-three{
     font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+
 color: #2e2f42;
 }
 .team-list .text{
@@ -151,16 +133,16 @@ color: #2e2f42;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
+
 color: #434455;
 }
 
 .portfolio-section .headline-two{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
-    text-align: center;
+    text-transform: capitalize;
     color: #2e2f42;
 }
 
